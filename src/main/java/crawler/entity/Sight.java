@@ -1,4 +1,4 @@
-package crawler.repository;
+package crawler.entity;
 
 public class Sight {
     private String sightName;

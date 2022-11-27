@@ -1,6 +1,6 @@
 package crawler.controller;
 
-import crawler.repository.Sight;
+import crawler.entity.Sight;
 import crawler.service.CrawlerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

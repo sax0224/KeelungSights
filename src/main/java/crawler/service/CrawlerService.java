@@ -1,5 +1,6 @@
 package crawler.service;
-import crawler.repository.Sight;
+import crawler.entity.KeelungSightsCrawler;
+import crawler.entity.Sight;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;

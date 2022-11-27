@@ -1,6 +1,5 @@
-package crawler.service;
+package crawler.entity;
 
-import crawler.repository.Sight;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
