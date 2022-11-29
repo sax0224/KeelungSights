@@ -5,7 +5,8 @@ def stop_docker(){
     path = sh(returnStdout:  true, script: "pwd").trim()
     echo "$path and ${env.WORKSPACE}"
     if (path == env.WORKSPACE){
-        sh "rm -rf api/ test_case/"
+	cp target/karate-reports/karate-summary.html ~/report
+        sh "rm -rf *"
     }
 }
 
